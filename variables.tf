@@ -80,11 +80,6 @@ variable "ssh_listener_port" {
   description = "SSH port"
 }
 
-variable "zone_id" {
-  default     = ""
-  description = "Route53 parent zone ID. The module will create sub-domain DNS records in the parent zone for the EB environment"
-}
-
 variable "config_source" {
   default     = ""
   description = "S3 source for config"
