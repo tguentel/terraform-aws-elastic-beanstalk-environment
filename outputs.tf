@@ -1,8 +1,3 @@
-output "host" {
-  value       = "${module.tld.hostname}"
-  description = "DNS hostname"
-}
-
 output "name" {
   value       = "${aws_elastic_beanstalk_environment.default.name}"
   description = "Name"
